@@ -3,6 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Cars</title>
+    <style>
+      .btn {
+         color: #212121;
+         background-color: #c5cae9;
+         text-decoration: none;
+         padding: 8px;
+         display: inline-block;
+         border-radius: 4px;
+      }
+      .btn:hover {
+        color: #fff;
+        background-color: #5c6bc0;
+      }
+      .btn:active {
+        color: #e8eaf6;
+        background-color: #3f51b5;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </style>
   </head>
   <body style="background-color: #E6E6FA; padding-top: 20px; padding-left: 40px; padding-bottom: 60px; padding-right: 30px;">
     <h1>Энциклопедия Автомобилей</h1>
@@ -10,7 +36,7 @@
     <h2>Америка</h2>
     <ul>
       <li>
-        <a href="./countries/usa/1970-dodge-challenger.html">
+        <a href="./countries/usa/1970-dodge-challenger.html" class="btn">
           Dodge Challenger 1970
         </a>
       </li>
@@ -19,20 +45,15 @@
     <h2>Япония</h2>
     <ul>
       <li>
-        <a href="./countries/japan/1997-toyota-supra.html">
+        <a href="./countries/japan/1997-toyota-supra.html" class="btn">
           Toyota Supra A80
         </a>
       </li>
-    </ul>
-
-    <ul>
       <li>
-        <a href="./countries/japan/mazda-rx-7.html">
-          Toyota Supra A80
+        <a href="./countries/japan/mazda-rx-7.html" class="btn">
+          Mazda RX-7
         </a>
       </li>
     </ul>
-
-
   </body>
 </html>
