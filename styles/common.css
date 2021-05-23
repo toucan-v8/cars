@@ -1,0 +1,26 @@
+body {
+  background-color: #E6E6FA;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+}
+
+table {
+  margin-top: 20px;
+  min-width: 200px;
+  max-width: 500px;
+  border: 1px solid #3949ab;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #3949ab;
+  padding: 8px;
+}
+
+th {
+  color: #fff;
+  background-color: #5c6bc0;
+  font-weight: 400
+}
